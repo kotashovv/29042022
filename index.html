@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/libs/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Benarit - index</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="assets/imgs/35780bd85be3969f965e.png" alt="">
+                        </a>
+                    </div>
+                    <nav class="header__menu">
+                        <ul>
+                            <li>
+                                <a href="#">Тарифы</a>
+                            </li>
+                            <li>
+                                <a href="#">Стать партнёром</a>
+                            </li>
+                            <li>
+                                <a href="#">Кейсы и отзывы</a>
+                            </li>
+                            <li>
+                                <a href="#">Блог</a>
+                            </li>
+                            <li>
+                                <a class="call-popup gray-btn" href="#">Получить расчет</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="burger-btn">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__body">
+                        <h1>
+                            IT-инфраструктура
+                            для вашего бизнеса
+                            с поддержкой 24/7
+                        </h1>
+                        <ul>
+                            <li>
+                                <img src="assets/imgs/icons/hero1.svg" alt="">
+                                Внедрение
+                            </li>
+                            <li>
+                                <img src="assets/imgs/icons/hero2.svg" alt="">
+                                Настройка
+                            </li>
+                            <li>
+                                <img src="assets/imgs/icons/hero3.svg" alt="">
+                                Поддержка
+                            </li>
+                            <li>
+                                <img src="assets/imgs/icons/hero4.svg" alt="">
+                                Мониторинг
+                            </li>
+                        </ul>
+                        <div class="hero__action">
+                            <a class="blue-btn" href="#">
+                                Получить расчет
+                            </a>
+                            <a href="#">
+                                Узнать стоимость
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="invise-back"></div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <div class="about__body">
+                        <div class="about__item">
+                            <span>
+                                Что это такое?
+                            </span>
+                            <h2>
+                                IT-инфраструктура —
+                                это технологии компании
+                            </h2>
+                            <p>
+                                Компьютеры, серверы, программы, интернет, телефония, сети, базы данных и даже системы видеонаблюдения.
+                            </p>
+                        </div>
+                        <div class="about__item">
+                            <h3>
+                                Стабильность берём на себя
+                            </h3>
+                            <p>
+                                У всех перидоически что-то ломается. Мы поможем избежать поломок, а если она произойдёт — оперативно устраним.
+                            </p>
+                        </div>
+                        <ul class="about__list">
+                            <li>
+                                <img src="assets/imgs/icons/about1.svg" alt="">
+                                <span>
+                                    Вы сообщаете о проблеме
+                                </span>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/icons/about2.svg" alt="">
+                                <span>
+                                    Мы регистрируем инцидент
+                                </span>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/icons/about3.svg" alt="">
+                                <span>
+                                    Устраняем проблему
+                                </span>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/icons/about.svg" alt="">
+                                <span>
+                                    У вас всё
+                                    работает
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="breaker">
+                <div class="container">
+                    <div class="breaker__body">
+                        <div class="breaker__img">
+                            <img src="assets/imgs/icons/breaker2.svg" alt="">
+                        </div>
+                        <h4>
+                            Гарантируем бесперебойную работу вашей инфраструктуры и оперативное устранение проблем
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="calc">
+                <div class="container">
+                    <div class="calc__body">
+                        <div class="calc__title">
+                            <h4>
+                                Калькулятор стоимости
+                            </h4>
+                        </div>
+                        <div class="calc__calc">
+                            <span>Сколько у вас техники?</span>
+                            <p>
+                                Компьютеров
+                            </p>
+                            <input class="js-range-slider comp-count" type="text" value="">
+                            <p>
+                                Серверов
+                            </p>
+                            <input class="js-range-slider serv-count" type="text" value="">
+                            <label class="custom-checkbox">
+                                <input class="finance-check" type="checkbox" value="value-1">
+                                <span>Финансовая грамотность</span>
+                                <a href="#">Что это?</a>
+                              </label>
+                            <button class="blue-btn">Рассчитать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="edge">
+                <div class="container">
+                    <div class="edge__title">
+                        <h4>
+                            Что вы получаете?
+                        </h4>
+                    </div>
+                    <div class="edge__body">
+                        <div class="edge__item">
+                            <img src="assets/imgs/icons/edge1.svg" alt="">
+                            <span>Полноценный IT отдел</span>
+                            <p>
+                                Пока вы работаете над своими задачами, выделенная команда поддерживает всю IT-составляющую вашего бизнеса.
+                            </p>
+                        </div>
+                        <div class="edge__item">
+                            <img src="assets/imgs/icons/edge2.svg" alt="">
+                            <span>Конкретную выгоду</span>
+                            <p>
+                                Команда на аутсорсе обходится дешевле собственного штата специалистов, оплаты их отпусков и больничных.
+                            </p>
+                        </div>
+                        <div class="edge__item">
+                            <img src="assets/imgs/icons/edge3.svg" alt="">
+                            <span>Защиту от сбоев</span>
+                            <p>
+                                Около 80% сбоев мы предотвращаем превентивно, остальные оперативно устраняем.
+                            </p>
+                        </div>
+                        <div class="edge__item">
+                            <img src="assets/imgs/icons/edge4.svg" alt="">
+                            <span>Персонализацию</span>
+                            <p>
+                                К каждому клиенту мы подходим с полным погружением в задачи бизнеса и защищаем данные договором и этикой.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sform">
+                <div class="container">
+                    <div class="sform__body">
+                        <div class="sform__title">
+                            <h4>
+                                Узнайте, как сэкономить <span>1 млн ₽</span> на IT-оптимизации
+                            </h4>
+                        </div>
+                        <div class="sform__form">
+                            <form action="#">
+                                <input placeholder="Имя" type="text">
+                                <input placeholder="Телефон" type="text">
+                                <button class="blue-btn" type="submit">Хочу узнать</button>
+                            </form>
+                            <p>
+                                Нажимая на кнопку «Хочу узнать» вы соглашаетесь с 
+                                <a href="#">политикой конфиденциальности</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="tarif">
+                <div class="container">
+                    <div class="tarif__title">
+                        <h5>
+                            Почему IT-аутсорс намного выгоднее?
+                        </h5>
+                        <p>
+                            Давайте посмотрим на расчеты при одинаковом количестве рабочих станций.
+                        </p>
+                    </div>
+                    <div class="tarif__body">
+                        <div class="tarif__item">
+                            <div class="tarif__price">
+                                <span>
+                                    94 000 ₽
+                                </span>
+                                <p>
+                                    Собственный IT-специалист
+                                </p>
+                            </div>
+                            <ul class="tarif__list">
+                                <li>
+                                    <p>
+                                        Количество рабочих станций
+                                    </p>
+                                    <span>
+                                        20
+                                    </span>
+                                </li>
+                                <li>
+                                    <p>
+                                        Средняя зарплата системного администратора
+                                    </p>
+                                    <span>
+                                        60 000 ₽
+                                    </span>
+                                </li>
+                                <li>
+                                    <p>
+                                        Налоги и страховые взносы
+                                    </p>
+                                    <span>
+                                        24 000 ₽
+                                    </span>
+                                </li>
+                                <li>
+                                    <p>
+                                        Аренда офисного рабочего пространства                                    </p>
+                                    <span>
+                                        10 000 ₽
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tarif__item">
+                            <div class="tarif__price">
+                                <span>
+                                    33 000 ₽
+                                </span>
+                                <p>
+                                    Аутсорсинг Benarit
+                                </p>
+                            </div>
+                            <ul class="tarif__list">
+                                <li>
+                                    <p>
+                                        Количество рабочих станций
+                                    </p>
+                                    <span>
+                                        20
+                                    </span>
+                                </li>
+                                <li>
+                                    <p>
+                                        Средняя зарплата системного администратора
+                                    </p>
+                                    <span>
+                                        0 ₽
+                                    </span>
+                                </li>
+                                <li>
+                                    <p>
+                                        Налоги и страховые взносы
+                                    </p>
+                                    <span>
+                                        0 ₽
+                                    </span>
+                                </li>
+                                <li>
+                                    <p>
+                                        Аренда офисного рабочего пространства                                    </p>
+                                    <span>
+                                        0 ₽
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="works">
+                <div class="container">
+                    <div class="works__title">
+                        <h5>
+                            Наши кейсы и отзывы
+                        </h5>
+                    </div>
+                    <div class="works__body">
+                        <a href="#" class="works__item">
+                            <img src="assets/imgs/work.webp" alt="">
+                            <span>Autospot</span>
+                            <p>
+                                Настроили единую сеть между офисами, с защищенным каналом, в Твери и Москве.
+                            </p>
+                        </a>
+                        <a href="#" class="works__item">
+                            <img src="assets/imgs/work.webp" alt="">
+                            <span>Autospot</span>
+                            <p>
+                                Настроили единую сеть между офисами, с защищенным каналом, в Твери и Москве.
+                            </p>
+                        </a>
+                        <a href="#" class="works__item">
+                            <img src="assets/imgs/work.webp" alt="">
+                            <span>Autospot</span>
+                            <p>
+                                Настроили единую сеть между офисами, с защищенным каналом, в Твери и Москве.
+                            </p>
+                        </a>
+                        <a href="#" class="works__item">
+                            <img src="assets/imgs/work.webp" alt="">
+                            <span>Autospot</span>
+                            <p>
+                                Настроили единую сеть между офисами, с защищенным каналом, в Твери и Москве.
+                            </p>
+                        </a>
+                        <a href="#" class="works__item">
+                            <img src="assets/imgs/work.webp" alt="">
+                            <span>Autospot</span>
+                            <p>
+                                Настроили единую сеть между офисами, с защищенным каналом, в Твери и Москве.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="works__action">
+                        <button class="blue-btn add-more-call">Показать ещё</button>
+                    </div>
+                </div>
+            </section>
+            <section class="offer">
+                <div class="container">
+                    <div class="offer__title">
+                        <h5>
+                            Как делегировать IT-вопросы подрядчику и начать жить
+                        </h5>
+                    </div>
+                    <div class="offer__text">
+                        <p>
+                            Скачайте бесплатное PDF-руководство,
+                            разработанное нашими специалистами
+                        </p>
+                    </div>
+                    <div class="offer__action">
+                        <button class="blue-btn">
+                            <img src="assets/imgs/icons/download.svg" alt="">
+                            Получить PDF-файл
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="faq">
+                <div class="container">
+                    <div class="faq__body">
+                        <div class="faq__title">
+                            <h5>
+                                Частые вопросы
+                            </h5>
+                        </div>
+                        <div class="faq__btns">
+                            <div class="faq__item">
+                                <button class="faq__btn">Что входит в обслуживание? <span></span></button>
+                                <div class="faq__info">
+                                    <ul>
+                                        <li>
+                                            установка и настройка серверов и рабочих мест 
+                                        </li>
+                                        <li>
+                                            настройка доступа в интернет 
+                                        </li>
+                                        <li>
+                                            заведение почтовых ящиков для сотрудников 
+
+                                        </li>
+                                        <li>
+                                            установка и настройка офисной техники 
+
+                                        </li>
+                                        <li>
+                                            установка и настройка 1с 
+
+                                        </li>
+                                        <li>
+                                            установка и настройка IP-телефонии 
+                                        </li>
+                                        <li>
+                                            замена комплектующих и модернизация компьютеров и серверов 
+                                            
+                                        </li>
+                                        <li>
+                                            круглосуточное наблюдение за работоспособностью серверов с оповещением о проблемах 
+
+                                        </li>
+                                        <li>
+                                            консультирование сотрудников по работе с техникой и программами 
+
+                                        </li>
+                                        <li>
+                                            работы по улучшению информационной безопасности компании 
+
+                                        </li>
+                                        <li>
+                                            регламентные работы по поддержанию системы
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <button class="faq__btn">Как формируется стоимость обслуживания? <span></span></button>
+                                <div class="faq__info">
+                                    <p>
+                                        Стоимость обслуживания рассчитывается из количества серверов и компьютеров.
+                                        Обслуживание офисной техники, сети и роутеров входит в стоимость.
+                                        Все разовые работы по модернизации входят в стоимость.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <button class="faq__btn">В каких городах России вы работаете? <span></span></button>
+                                <div class="faq__info">
+                                    <p>
+                                        Выездное обслуживание мы осуществляем по Москве.
+                                        Удалённое обслуживание возможно в любой точке мира.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <button class="faq__btn">Вы можете поддерживать нас 24/7? <span></span></button>
+                                <div class="faq__info">
+                                    <p>
+                                        Да, поддерживаем. Стоимость работ в нерабочее время обговаривается отдельно.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <button class="faq__btn">Каким образом вы храните пароли к ИТ-инфраструктурам клиентов? <span></span></button>
+                                <div class="faq__info">
+                                    <p>
+                                        Для хранения мы используем шифрованную базу данных на основе KeePass. Не зная ключа шифрования, прочесть данные невозможно.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <button class="faq__btn">Какие этапы решения у возникшей проблемы? <span></span></button>
+                                <div class="faq__info">
+                                    <ol>
+                                        <li>
+                                            Вы звоgните нам с проблемой (К примеру, не работает сервер с 1с).
+                                        </li>
+                                        <li>
+                                            Мы регистрируем заявку (Проставляем время, в которое проблема должна быть исправлена. 1с - критический сервис для компании. По договору, критический сервис должен быть восстановлен в течение часа.).
+                                        </li>
+                                        <li>
+                                            Решаем вопрос (Проблема решается в течение часа. Если дольше, то мы уменьшаем абонентскую плату на 5% от стоимости договора за каждый час просрочки.).
+                                        </li>
+                                        <li>
+                                            Вы получаете результат (Мы несём финансовую ответственность за нарушение сроков. Нам невыгодно долго решать проблемы.).
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mform">
+                <div class="container">
+                    <div class="mform__body">
+                        <div class="mfrom__title">
+                            <span>
+                                Сомневаетесь?
+                            </span>
+                            <p>
+                                Оставьте контакты, мы всё расскажем.
+                            </p>
+                        </div>
+                        <div class="mform__form">
+                            <form action="#">
+                                <p>
+                                    Заполните данные
+                                </p>
+                                <input type="text" placeholder="Имя">
+                                <input type="text" placeholder="Телефон">
+                                <textarea name="textarea" placeholder="Вопрос"></textarea>
+                                <button class="blue-btn" type="submit">Отправить</button>
+                                <span>
+                                    Нажимая на кнопку «Отправить» вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+                                </span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__body">
+                    <div class="footer__col">
+                        <div class="footer__logo">
+                            <a href="#">
+                                <img src="assets/imgs/35780bd85be3969f965e.png" alt="">
+                            </a>
+                        </div>
+                        <p>Руководство по подбору IT подрядчика</p>
+                        <a href="#"><img src="assets/imgs/icons/download.svg" alt="">Скачать</a>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__action">
+                            <a class="foo-phone" href="#">+7 (495) 477-59-87</a>
+                            <button data-goto=".hero" class="link-go">Наверх <img src="assets/imgs/icons/up-arrow.svg" alt=""></button>
+                        </div>
+                        <a href="mailto:info@Benarit.ru">info@Benarit.ru</a>
+                        <div class="footer__social">
+                            <p>Быстрая связь</p>
+                            <a href="#"><img src="assets/imgs/icons/telegram.svg" alt="">Telegram</a>
+                            <a href="#"><img src="assets/imgs/icons/whatsapp.svg" alt="">WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p>
+                        © 2016–2021
+                    </p>
+                    <a href="#">
+                        Политика конфиденциальности
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/libs/ion.rangeSlider.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
